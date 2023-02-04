@@ -1,0 +1,8 @@
+# Project Description
+
+The main problem we are trying to solve is to have a hassle-free and easy process for common people with cars to make some extra money through their asset while it is not in use. 
+
+We are planning on adding functionalities using HTML/CSS for the front-end and Python Flask for the back-end. We will have various tables in our database such as ***buyer details, car details, payment details, user login, car availability, car ownership and other details***.
+
+The user will have to register an account/login to an existing account before being able to access the rest of the website. Once logged in, the user can choose to either rent a car, in which they can choose from a list of available cars catered to their specific needs, or lease a car, in which the user will have to input the details of the car they are leasing. The basic functionality of the application includes: creating renter/rentee login account (with associated user/payment/car details), checking the eligibility of the lessee *(age and driving license validity)* and the lessor *(car insurance expiry)*, store all these information in the database tables (in the backend), providing user interface through frontend web tools mentioned above, performing ***CRUD (Create-Read-Update-Delete)*** operations. Complex functions of the applications include: retrieving user location details through front end and finding out nearest available car stations/lot for the renter (distance measured through road routes, and additional distance filters applied to limit available cars to proximal rentee’s location), storing transactions (if a renter rents a car, *the carId, renterId, payment details, pickup location, pickup and drop off time and date* are all stored). 
+
