@@ -1,3 +1,5 @@
+// SQL Program to check if a car is rentable
+
 DELIMITER $$
 DROP PROCEDURE IF EXISTS TripHistClash $$
 CREATE PROCEDURE TripHistClash(IN currUser VARCHAR(255), IN start_dt DATETIME, IN end_dt DATETIME, OUT is_rentable BOOLEAN, OUT is_freeride BOOLEAN)
